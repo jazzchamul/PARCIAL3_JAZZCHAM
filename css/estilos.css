@@ -1,0 +1,178 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #003B71;
+}
+
+#titulo{
+    background-color: #003B71;;
+    color: #ffffff;
+ }
+
+ h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 3.0rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    color: #003B71;
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: #003B71;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.logo-image{
+    width: 45%;
+    position: absolute;
+    right: 30%;
+   align-items: center;
+}
+
+#caracteristicas {
+    padding: 7% 15%;
+    background-color: #993DBB;
+    align-content: center;
+}
+
+.caja-caracteristica{
+    text-align: center;
+    padding: 5%;
+    align-content: center;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+}
+
+.icon {
+    color: #0cc4c4;
+    text-align: center;
+}
+
+.icon:hover {
+    color:#003B71 ;
+}
+
+#testimonios {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #00AFAA;
+    color: #fff;
+}
+
+.img-testimonio{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#prensa{
+    background-color: #00AFAA;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#precios {
+    padding: 100px;
+    text-align: center;
+    color: #fafafa;
+    background-color: ##003B71;
+}
+
+.precios-col {
+    padding: 3% 2%;
+    color: #75a8d8;
+    background-color: #003B71;
+}
+
+#cta{
+    background-color: #20bff0;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.encabezado-cta{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    color: #f8f1fd;
+}
+
+ 
+
+@media (max-width: 1028px) {
+    #titulo{
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+p.des{
+    color: #fff;
+    text-align: center;
+}
+.row{
+    text-align: center;
+    align-content: center;
+}
+p.cuadro{
+    color: #030101;
+}
+h3.titu{
+    color: #762ba8;
+}
+h4.copy{
+    color: #ffffff;
+}
